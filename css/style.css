@@ -1,0 +1,1156 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Layout 2 */
+
+.mostrar{
+    display: none;
+}
+
+.mostrar-2{
+    display: none;
+    position: relative;
+    top: 17vmin;
+    /*z-index: 1111;*/
+    /*background-color: darkred;*/
+}
+
+.trocar{
+    display: none;
+}
+
+.trocar-2{
+    display: none;
+}
+
+.container-4{
+    /*background-color: hotpink;*/
+    position: absolute;
+    top: 15vmin;
+    width: 100%;
+    height: 325%;
+}
+
+.titulo-base{
+    position: absolute;
+    color: #949292;
+    font-size: 22px;
+    margin-bottom: 24px
+}
+
+.titulo-baseq{
+    position: absolute;
+    color: #949292;
+    font-size: 22px;
+    margin-bottom: 24px
+}
+
+/*Começa aqui*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container-lista-h {
+    position: absolute;
+    left: 35.5em;
+    top: 19em;
+}
+
+.titulo-inicial-1a {
+    color: #A5A5A5;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.menu{
+    background: white;
+    height: 30vmin;
+}
+
+.white{
+    background-color: white;
+    width: 100vw;
+    height: 24vh;
+}
+
+.container-texto{
+    width: 130vmin;
+    height: 12vmin;
+    margin: 0 auto;
+    margin-top: 40vh;
+}
+
+.container-texto-v{
+    width: 130vmin;
+    height: 12vmin;
+    margin: 0 auto;
+    margin-top: 27vh;
+}
+
+.container-texto-a{
+    width: 130vmin;
+    height: 12vmin;
+    margin: 0 auto;
+    margin-top: 21vh;
+}
+
+.subpartes{
+    /*width: 45%;*/
+    position: absolute;
+    top: 90%;
+    /*left: 17.4%;*/
+}
+
+.base-labs{
+    position: absolute;
+    left: 68%;
+}
+
+p.linha-abaixo{
+    position: relative;
+    left: 40vmin;
+}
+
+.container-texto-b{
+    width: 130vmin;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 26vh;
+    position: relative;
+    top: 25vmin;
+}
+
+.container-texto-base{
+    width: 130vmin;
+    height: 12vmin;
+    margin: 0 auto;
+    margin-top: 22vh;
+    position: absolute;
+    left: 19.4%;
+    top: 158%;
+}
+
+.container-contato{
+    width: 130vmin;
+    height: 12vmin;
+    margin: 0 auto;
+    margin-top: 25vh;
+}
+
+.container-contato-h{
+    width: 130vmin;
+    height: 12vmin;
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+
+.container-vision{
+    width: 130vmin;
+    height: 12vmin;
+    margin: 0 auto;
+    margin-top: 6vh;
+}
+
+.container-about{
+    width: 30vmin;
+    height: 6vmin;
+    margin-top: 6vh;
+    position: relative;
+    left: 590px;
+}
+
+
+.titulo-inicial{
+    color: #A5A5A5;
+}
+
+.descr-vision{
+    color: #949292;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.descr-vision1{
+    color: #949292;
+    font-size: 16px;
+    line-height: 24px;
+    /*position: relative;
+    left: 5%;*/
+}
+
+.titulo-inicial-vision{
+    color: #949292;
+    font-size: 25px;
+}
+
+.titulo-inicial-about{
+    color: #949292;
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.titulo-inicial-about-1{
+    color: #949292;
+    font-size: 22px;
+    margin-bottom: 24px;
+    position: relative;
+    left: 0%;
+    top: 0%;
+}
+
+.titulo-inicial-about-easy{
+    color: #949292;
+    font-size: 17px;
+    margin-bottom: 15px;
+    position: relative;
+    top: -17px;
+}
+
+.texto-soma{
+    color: #696464;
+    margin-bottom: 4.4%;
+    position: relative;
+    top: 25%;
+    left: -14%;
+}
+
+span.space{
+    position: relative;
+    left: 12%;
+}
+
+span.space1{
+    position: relative;
+    left: 3.3%;
+}
+
+span.space2{
+    position: relative;
+    left: 16.3%;
+}
+
+.titulo-inicial-1{
+    color: #A5A5A5;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.titulo-inicial-c{
+    color: #7d7c7c;
+    font-size: 14px;
+}
+
+.subtitulo-inicial{
+    color: #43C4F3;
+    margin-bottom: 16px;
+}
+
+.address{
+    line-height: 27px;
+    width: 40%;
+    margin: -41px;
+    position: absolute;
+    top: 65%;
+    left: 34%;
+}
+
+.logos{
+    width: 80%;
+    position: absolute;
+    top: 48.7%;
+    left: 19.1%;
+}
+
+.linkedin{
+    width: 4%;
+    margin-left: 56.5vmin;
+}
+
+.wordpress{
+    width: 4%;
+}
+
+.cb{
+    width: 4%;
+}
+
+.last{
+    margin-bottom: 0%;
+}
+
+ul#lista{
+    position: relative;
+    left: 492px;
+    top: 75px;
+    margin: -10px;
+    width: 80%;
+}
+
+.team-pic{
+    width: 70%;
+    border-radius: 100%;
+}
+
+.tamanho{
+    inline-size: 162px !important;
+}
+
+.nomes,.nomes-lucas,.nomes-b,.nomes-d,.nomes-c,.nomes-e{
+    inline-size: 165px !important;
+    color: #7d7c7c;
+}
+
+.fotos-equipe{
+    position: absolute;
+    left: 15.5%;
+    top: 204%;
+}
+
+.nomes-equipe{
+    position: absolute;
+    left: 15%;
+    top: 223%;
+}
+
+.setas{
+    float: left;
+    height: 10px;
+}
+
+.setas-2{
+    float: left;
+    height: 10px;
+}
+
+.setas-azuis{
+    width: 9%;
+}
+
+.arrows{
+    position: relative;
+    top: 21vmin;
+    left: 17vmin;
+    margin-bottom: 35px;
+}
+
+.setas-base{
+    position: relative;
+    top: 28.2vmin;
+    left: 18vmin;
+    margin-bottom: 73px;
+}
+
+.arrows-2{
+    position: relative;
+    top: 39vmin;
+    left: -23vmin;
+    margin-bottom: 59px;
+}
+
+.setas-base-2{
+    position: relative;
+    top: 16.5vmin;
+    left: -22vmin;
+    margin-bottom: 59px;
+}
+
+.base.descr-vision1{
+    margin-bottom: 4vmin;
+}
+
+.container-3{
+    position: relative;
+    top: 151vmin;
+}
+
+.nomes-board-1{
+    position: relative;
+    top: -31vmin;
+}
+
+.nomes-board-2{
+    position: relative;
+    top: -9vmin;
+}
+
+.fotos-board-1{
+    position: relative;
+    top: -13vmin;
+}
+
+.fotos-board-2{
+    position: relative;
+    top: -5vmin;
+}
+
+li.tamanho.fernando{
+    position: relative;
+    left: -0.7%;
+}
+
+span.soma{
+    color: #43C4F3;
+    font-weight: bold;
+}
+
+/*AJUSTES DE RESPONSIVIDADE*//* 1o BREAK: DE 294px até 450px*/
+
+@media(min-width: 294px) and (max-width:450px){
+
+    .container-texto {
+        width: 100vmin;
+        height: 12vmin;
+        margin: 0 auto;
+        margin-top: 40vh;
+    }
+
+    .titulo-inicial {
+        color: #A5A5A5;
+        font-size: 25px;
+    }
+
+    .titulo-baseq{
+        position: absolute;
+        left: -4%;
+        color: #949292;
+        font-size: 22px;
+        margin-bottom: 24px;
+        width: 15em;
+    }
+
+    .subtitulo-inicial {
+        color: #43C4F3;
+        font-size: 15px;
+    }
+
+    .container-contato {
+        width: 100vmin;
+        height: 12vmin;
+        margin: 0 auto;
+        margin-top: 14vh;
+    }
+
+    .container-contato-h {
+        width: 100vmin;
+        height: 12vmin;
+        margin: 0 auto;
+        margin-top: 14vh;
+    }
+
+    .out{
+        display: none;
+    }
+
+    .out-2{
+        display: none;
+    }
+
+    .trocar{
+        display: block;
+    }
+
+    span.space {
+        position: relative;
+        left: -1%;
+    }
+
+    span.space1 {
+        position: relative;
+        left: 0em;
+    }
+
+    span.space2 {
+        position: relative;
+        left: 0.3%;
+    }
+
+    span.space3 {
+        position: relative;
+        left: 3.3%;
+    }
+
+    .container-about{
+        width: 100%;
+        height: 0vmin;
+        position: relative;
+        left: 1%;
+        top: -5%;
+    }
+
+    .titulo-inicial-1 {
+        color: #A5A5A5;
+        font-size: 42px;
+    }
+
+    .titulo-inicial-1a {
+        color: #A5A5A5;
+        font-size: 56px;
+        font-weight: bold;
+    }
+
+    .container-lista{
+        width: 121%;
+        position: absolute;
+        left: -39em;
+        top: 5em;
+        font-size: 12px;
+
+    }
+
+    .container-lista-h {
+        position: absolute;
+        top: 15.4em;
+        left: 1.7em;
+        font-size: 12px;
+    }
+
+    .logos {
+        width: 80%;
+        position: absolute;
+        top: 44.7%;
+        left: 18.1%;
+    }
+
+    .linkedin {
+        width: 14%;
+        margin-left: 13vmin;
+    }
+
+    .wordpress {
+        width: 14%;
+    }
+
+    .cb {
+        width: 14%;
+    }
+
+    .address {
+        line-height: 27px;
+        width: 70%;
+        margin: -41px;
+        position: absolute;
+        top: 65%;
+        left: 25%;
+        font-size: 13px;
+    }
+    
+    .white {
+        background-color: white;
+        width: 100vw;
+        height: 32vh;
+    }
+
+    .subpartes{
+        position: absolute;
+        top: 145%;
+        left: -25em;
+        font-size: 12px;
+    }
+
+    .container-texto-b {
+        width: 90vmin;
+        height: 89vmin;
+        margin: 0 auto;
+        margin-top: 27vh;
+    }
+
+    .titulo-inicial-about {
+        color: #949292;
+        font-size: 21px;
+    }
+
+    .titulo-inicial-about-a {
+        color: #949292;
+        font-size: 22px;
+        position: relative;
+        top: -42%;
+    }
+
+    .descr-vision {
+        color: #A5A5A5;
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .container-texto-a {
+        width: 87vmin;
+        height: 12vmin;
+        margin: 0 auto;
+        margin-top: 15vh;
+        
+    }
+
+    .descr-vision1 {
+        color: #bdbdbd;
+        font-size: 15px;
+        line-height: 24px;
+        position: relative;
+        left: 2%;
+        width: 97%;
+    }
+
+    .setas-azuis {
+        width: 5%;
+    }
+
+    .arrows {
+        position: relative;
+        top: 210px;
+        left: -115px;
+        margin-bottom: 110px;
+    }
+
+    .arrows-2 {
+        position: relative;
+        top: 435px;
+        left: -115px;
+        margin-bottom: 136px;
+    }
+
+    .texto-soma {
+        color: #696464;
+        margin-bottom: 4.4%;
+        position: relative;
+        top: 25%;
+        left: -76%;
+        width: 23em;
+    }
+
+    .container-3 {
+        position: relative;
+        top: 580vmin;
+        height: 0vmin;
+    }
+
+    .container-texto-base {
+        width: 97%;
+        height: 12vmin;
+        margin: 0 auto;
+        margin-top: 22vh;
+        position: absolute;
+        left: 1.4%;
+        top: 240%;
+    }
+
+    li.tamanho{
+        margin-bottom: 6em;
+    }
+
+    li.nomes{
+        margin-bottom: 93%;
+    }
+
+    .fotos-equipe {
+        position: absolute;
+        left: 29.1%;
+        top: 300%;
+        width: 42%;
+    }
+
+    .nomes-equipe {
+        position: absolute;
+        left: 29%;
+        top: 118em;
+        width: 43%;
+    }
+
+    /*.fotos-board-1 {
+        position: absolute;
+        left: 29.5%;
+        top: 33%;
+        width: 42%;
+    }*/
+
+    .fotos-board-1 {
+        position: relative;
+        top: 7vmin;
+    }
+
+    /*.nomes-board-1 {
+        position: absolute;
+        left: 29%;
+        top: 57%;
+        width: 42%;
+    }*/
+
+    .fotos-board-2 {
+        position: absolute;
+        left: 29.5%;
+        top: 40em;
+        width: 42%;
+    }
+
+    .nomes-board-1 {
+        position: relative;
+        top: -31em;
+    }
+
+    .nomes-board-2 {
+        position: absolute;
+        left: 29%;
+        /*top: 162%;*/
+        width: 42%;
+    }
+
+    li.nomes-b.arjun,li.nomes-d.david{
+        margin-bottom: 12em;
+    }
+
+    .setas-base-2 {
+        position: relative;
+        top: 40.5vmin;
+        left: -31vmin;
+        margin-bottom: 59px;
+    }
+
+    .setas-base {
+        position: relative;
+        top: 88.6vmin;
+        left: -31vmin;
+        margin-bottom: 140px;
+    }
+
+}
+
+/*AJUSTES DE RESPONSIVIDADE*//* 2o BREAK: DE 451px até 1300px*/
+
+
+/* O QUE EU FIZ ANTES PARA OS MEDIAS QUERIES */
+
+/*@media(min-width: 800px){
+
+    ul#lista-contato{
+        position: relative;
+        left: 506px;
+        top: 40px;
+        margin: -10px;
+        width: 80%;
+    }
+
+}
+
+@media(max-width: 600px){
+
+    .tamanho{
+        inline-size: 162px !important;
+        margin-bottom: 47%;
+    }
+
+    .fotos-equipe{
+        position: absolute;
+        left: 29.5%;
+        top: 55%;
+        width: 42%;
+    }
+
+    .fotos-board-1{
+        position: absolute;
+        left: 29.5%;
+        top: 30%;
+        width: 42%;
+    }
+
+    .fotos-board-2{
+        position: absolute;
+        left: 29.5%;
+        top: 121%;
+        width: 42%;
+    }
+
+    .nomes-board-1{
+        position: absolute;
+        left: 29%;
+        top: 49%;
+        width: 42%;
+    }
+
+    .nomes-board-2{
+        position: absolute;
+        left: 29%;
+        top: 140%;
+        width: 42%;
+    }
+
+    .nomes{
+        inline-size: 165px !important;
+        margin-bottom: 85%;
+        font-size: 111%;
+    }
+
+    .nomes-b{
+        inline-size: 165px !important;
+        margin-bottom: 100%;
+        font-size: 111%;
+    }
+
+    .nomes-c{
+        inline-size: 165px !important;
+        margin-bottom: 100%;
+        font-size: 111%;
+    }
+
+    .nomes-e{
+        inline-size: 165px !important;
+        font-size: 111%;
+    }
+
+    .nomes-d{
+        inline-size: 165px !important;
+        font-size: 111%;
+    }
+
+    .nomes-lucas{
+        inline-size: 165px !important;
+        font-size: 111%;
+    }
+
+    .nomes-equipe{
+        position: absolute;
+        left: 29%;
+        top: 74%;
+        width: 43%;
+    }
+
+    .arrows{
+        position: relative;
+        top: 277px;
+        left: -117px;
+        margin-bottom: 85px;
+    }
+
+    .arrows-2{
+        position: relative;
+        top: 478px;
+        left: -117px;
+        margin-bottom: 110px;
+    }
+
+    .setas-azuis{
+        width: 5%;
+    }
+
+}
+
+@media(max-width: 390px){
+
+    ul#lista-contato{
+        font-size: 12px;
+        position: relative;
+        left: 23px;
+        top: 60px;
+        margin: -10px;
+        width: 96%;
+    }
+
+    .address{
+        line-height: 27px;
+        width: 70%;
+        margin: -41px;
+        position: absolute;
+        top: 65%;
+        left: 25%;
+    }
+
+    .logos{
+        width: 80%;
+        position: absolute;
+        top: 45.7%;
+        left: 19.1%;
+    }
+
+    .fotos-equipe{
+        position: absolute;
+        left: 29.1%;
+        top: 62%;
+        width: 42%;
+    }
+
+    .nomes-equipe{
+        position: absolute;
+        left: 29%;
+        top: 84%;
+        width: 43%;
+    }
+
+    .fotos-board-1{
+        position: absolute;
+        left: 29.5%;
+        top: 33%;
+        width: 42%;
+    }
+
+    .fotos-board-2{
+        position: absolute;
+        left: 29.5%;
+        top: 138%;
+        width: 42%;
+    }
+
+    .nomes-board-1{
+        position: absolute;
+        left: 29%;
+        top: 57%;
+        width: 42%;
+    }
+
+    .nomes-board-2{
+        position: absolute;
+        left: 29%;
+        top: 162%;
+        width: 42%;
+    }
+
+    .arrows{
+        position: relative;
+        top: 297px;
+        left: -114px;
+        margin-bottom: 110px;
+    }
+
+    .arrows-2{
+        position: relative;
+        top: 523px;
+        left: -114px;
+        margin-bottom: 134px;
+    }
+
+    li.tamanho.fernando{
+        position: relative;
+        top: -3px;
+    }
+
+}
+
+span.soma{
+    color: #43C4F3;
+    font-weight: bold;
+}
+
+@media(min-width:386px){
+    .container-lista{
+        width: 70%;
+    }
+}
+
+@media(max-width: 580px){
+
+        .linkedin{
+        width: 12%;
+        margin-left: 15vmin;
+    }
+
+        .wordpress{
+        width: 12%;
+    }
+
+        .cb{
+        width: 12%;
+    }
+}
+
+@media(max-width:800px){
+
+        .container-texto{
+        width: 100vmin;
+        height: 12vmin;
+        margin: 0 auto;
+        margin-top: 40vh;
+    }
+
+        .container-contato{
+        width: 100vmin;
+        height: 12vmin;
+        margin: 0 auto;
+        margin-top: 18vh;
+    }
+
+     .container-vision{
+        width: 100vmin;
+        height: 12vmin;
+        margin: 0 auto;
+        margin-top: 20vh;
+    }
+
+    .container-about{
+        width: 30vmin;
+        height: 12vmin;
+        margin: 0px;
+        position: relative;
+        left: 129px;
+    }
+
+        .container-texto-a{
+        width: 93vmin;
+        height: 12vmin;
+        margin: 0 auto;
+        margin-top: 14vh;
+    }
+
+    .container-texto-b{
+        width: 93vmin;
+        height: 12vmin;
+        margin: 0 auto;
+        margin-top: 14vh;
+    }
+
+    .container-texto-base{
+        width: 93vmin;
+        height: 12vmin;
+        margin: 0 auto;
+        margin-top: 14vh;
+    }
+
+        .container-lista{
+            height: 21px;
+        }
+
+        ul#lista{
+        position: relative;
+        left: 24px;
+        top: 70px;
+        font-size: 12px;
+        width: 97%;
+        margin: -17px;
+    }
+
+}
+
+@media(max-width:575px){
+
+    .titulo-inicial{
+        color: #A5A5A5;
+        font-size: 25px;
+    }
+
+        .titulo-inicial-1{
+        color: #A5A5A5;
+        font-size: 42px;
+    }
+
+        .subtitulo-inicial{
+            color: #43C4F3;
+            font-size: 15px;
+    }
+
+        .address{
+        line-height: 27px;
+        font-size: 13px;
+    }
+
+        ul#lista{
+        position: relative;
+        left: 28px;
+        top: 70px;
+        font-size: 12px;
+        width: 97%;
+        margin: -17px;
+    }
+
+        .container-texto-v{
+        width: 90vmin;
+        height: 12vmin;
+        margin: 0 auto;
+        margin-top: 15vh;
+    }
+
+    .container-texto-a{
+        width: 87vmin;
+        height: 12vmin;
+        margin: 0 auto;
+        margin-top: 15vh;
+    }
+
+    .container-texto-b{
+        width: 90vmin;
+        height: 12vmin;
+        margin: 0 auto;
+        margin-top: 17vh;
+    }
+
+    .container-texto-base{
+        width: 90vmin;
+        height: 12vmin;
+        margin: 0 auto;
+        margin-top: 17vh;
+    }
+
+        .titulo-inicial-vision{
+        color: #949292;
+        font-size: 20px;
+    }
+
+    .titulo-inicial-about{
+        color: #949292;
+        font-size: 21px;
+    }
+
+    .titulo-inicial-about-1{
+        color: #949292;
+        font-size: 21px;
+    }
+
+    .titulo-inicial-about-easy{
+        color: #b5b2b2;
+        font-size: 17px;;
+    }
+
+        .descr-vision{
+        color: #A5A5A5;
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .descr-vision1{
+        color: #bdbdbd;
+        font-size: 15px;
+        line-height: 24px;
+        position: relative;
+        left: 2%;
+    }
+
+}*/

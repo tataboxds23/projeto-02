@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+
+<head>
+	<meta charset="UTF-8">
+	<title>Base Partners - Invest with the best</title>
+
+	<!--Tags meta-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!--Fim das tags meta-->
+
+	<!-- Favicon -->
+	<link rel="icon" id="favicon" type="image/x-icon" href="#">
+
+	<!-- Chamada para o JQuery-->
+	<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+
+	<!-- Chamada para arquivos de JS -- >
+    <script type="text/javascript" src="js/javascript1.js"></script>
+    
+    <!-- Chamada para folha de estilo -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Folha de estilo do Bootstrap -->
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+
+	<!-- Chamada JS do Bootstrap -->
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+	<!--JS para rolagem de página-->
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+	</script>
+	<!-- Fim do JS para rolagem de página-->
+
+</head>
+
+<!-- INÍCIO NAVBAR -->
+<!-- FIM DO NAVBAR -->
+
+<body>
+	<div class="container-about">
+		<h1 class="titulo-inicial-1">
+			<center>base</center>
+		</h1>
+		<h4 class="subtitulo-inicial">
+			<center>P A R T N E R S</center>
+		</h4>
+	</div>
+
+	<div class="container-lista">
+		<ul id="lista" class="list-inline">
+			<li style="color:#7d7c7c !important">|</li>
+			<li><a style="color:#7d7c7c !important" href="vision.html">VISION</a></li>
+			<li style="color:#7d7c7c !important">|</li>
+			<li><a style="color:#7d7c7c !important" href="about.html">ABOUT</a></li>
+			<li style="color:#7d7c7c !important">|</li>
+			<li><a a style="color:#7d7c7c !important" href="team.html">TEAM</a></li>
+			<li style="color:#43C4F3 !important">|</li>
+			<li class="active"><a href="#">ADVISORY BOARD</a></li>
+			<li style="color:#43C4F3 !important">|</li>
+		</ul>
+	</div>
+
+	<div class="fotos-board-1">
+		<center><ul id="fotosdoboard1" class="list-inline">
+			<li class="tamanho"><img class="team-pic" src="img/arjun.png" alt="foto-arjun"></li>
+			<li class="tamanho"><img class="team-pic" src="img/dan.png" alt="foto-dan"></li>
+			<li class="tamanho"><img class="team-pic" src="img/david.png" alt="foto-david"></li>
+		</ul></center>
+	</div>
+	
+	<div class="fotos-board-2">
+		<center><ul id="fotosdoboard2" class="list-inline">
+			<li class="tamanho"><img class="team-pic" src="img/keith.png" alt="foto-keith"></li>
+			<li class="tamanho"><img class="team-pic" src="img/fernando.jpg" alt="foto-soares"></li>
+			<li class="tamanho"><img class="team-pic" src="img/luis.png" alt="foto-luis"></li>
+		</ul></center>
+	</div>
+
+	<div class="nomes-board-1">
+		<center><ul id="nomesdoboard-1" class="list-inline">
+			<li class="nomes-b"><span class="soma"><strong>Arjun Divecha</strong></span></li>
+			<li class="nomes-b"><span class="soma"><strong>Dan Ariely</strong></span></li>
+			<li class="nomes-d"><span class="soma"><strong>David Vélez</strong></span></li>
+		</ul></center>
+	</div>
+
+	<div class="nomes-board-2">
+		<center><ul id="nomesdoboard-2" class="list-inline">
+			<li class="nomes-c"><span class="soma"><strong>Keith Johnson</strong></span></li>
+			<li class="nomes-c"><span class="soma"><strong>Luis Soares</strong></span></li>
+			<li class="nomes-e"><span class="soma"><strong>Luis Stuhlberger</strong></span></li>
+		</ul></center>
+	</div>
+
+</body>
+
+</html>
